@@ -15,6 +15,7 @@ Install Python with Windows installer as well as VSCdoe and create virtual envir
 Set up an IPython shell and enter it
 
 `pip install ipython`
+
 `ipython`
 
 ![Step 2](./Exercise%201.1/Step%202.PNG)
@@ -32,6 +33,7 @@ Export a requirements file
 Import the requirements file into a new environment
 
 `mkvirtualenv cf-python-copy`
+
 `pip install -r requirements.txt`
 
 ![Step 4](./Exercise%201.1/Step%204.PNG)
