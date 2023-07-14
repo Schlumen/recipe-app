@@ -45,3 +45,13 @@ Create and run [add.py script](./Exercise%201.1/add.py)
 `python add.py`
 
 ![Step 5](./Exercise%201.1/Step%205.PNG)
+
+## Exercise 2
+
+I choose a dictionary as the recipe data structure because it can store key-value pairs which is exactly what we need in this case. A dictionary also is very flexible and can be modified or changed if one needs to make an update to the recipe.
+
+As an outer structure for the recipe data structure all_recipes I choose a list, because it is very flexible and one can add or remove recipes.
+
+Here is a screenshot with some example recipes shown in the desired data structure:
+
+![Screenshot Step 1](./Exercise%201.2/Step%201.PNG)
