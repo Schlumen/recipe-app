@@ -62,5 +62,7 @@ for recipe in recipes_list:
 print("Ingredients available across all recipes")
 print("----------------------------------------\n")
 
+ingredients_list.sort()
+
 for ingredient in ingredients_list:
     print(ingredient)
