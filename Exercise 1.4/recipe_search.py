@@ -1,7 +1,7 @@
 import pickle
 
 def display_recipe(recipe):
-    print("Recipe:", recipe["name"])
+    print("\nRecipe:", recipe["name"])
     print("Cooking time (min):", recipe["cooking_time"])
     print("Ingredients:")
     for ingredient in recipe["ingredients"]:
@@ -13,7 +13,7 @@ def search_ingredient(data):
         print(count, ingredient)
 
     try:
-        ingredient_searched = int(input("Enter the index number of the ingredient that you want to search for: "))
+        ingredient_searched = data["all_ingredients"][int(input("Enter the index number of the ingredient that you want to search for: "))]
     except:
         print("Warning: Input is incorrect!")
     else:
